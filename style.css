@@ -1,0 +1,83 @@
+body{
+  background-color: #fff;
+}
+.navbar{
+  border:1px solid silver;
+  border:none;
+ 
+}
+
+/* change the navbar background-color */
+#header-2 .bg-custom{
+  background:black;
+}
+
+/* change the navbar Hamburger toggler Icon */
+.custom-toggler.navbar-toggler {
+    border: 2px solid rgb(77,77,77);
+}
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(50,100,100, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+.navbar-toggler:focus, .navbar-toggler:active,.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+/* change the brand color */
+.bg-custom .navbar-brand{
+  color:#ffffff;
+  font-size:30px;
+  margin:0px;
+  padding:0px;
+}
+
+/* change the text color */
+.nav-item{
+  font-size:20px;
+  font-weight:400;
+  margin:0px 2px;
+  gap:50px;
+}
+.nav-item a{
+  color:#ffffff;
+}
+
+
+/* change the text color of active or hovered links */
+.bg-custom .nav-item.active .nav-link,
+.bg-custom .nav-item:hover .nav-link {
+    color:#fff;
+    background-color: #495057; /* add background-color to active links */
+    background-repeat: repeat;
+    height: 100%;
+    width: auto;
+}
+
+/* for dropdown only - change the color of droodown */
+.bg-custom .dropdown-menu {
+   background: black;
+}
+.bg-custom .dropdown-item {
+  color:#ffffff;
+  font-size:18px;
+  padding:2px 10px;
+  margin:5px 0px;
+
+}
+.bg-custom .dropdown-item:hover,
+.bg-custom .dropdown-item:focus {
+    color: #fff;
+    background-color:#495057;
+
+}
+
+@media (max-width:575px){
+  .nav-item a{
+    text-align:center;
+  }
+h1 .center-content {
+  color: blue;
+  padding:12px;
+}
+
